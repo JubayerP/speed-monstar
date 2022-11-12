@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Zilla Slab", serif;
+}
+body{
+    background-image: url('./bg.png');
+    height: 100vh;
+}
+.blog-container{
+    /* height: 100%; */
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+.blogs{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.blog{
+    width: 630px;
+    background-color: rgb(46, 42, 42);
+    padding: 20px 10px;
+    border-radius: 10px;
+}
+.blog span{
+    font-size: 25px;
+    color: rgb(197, 184, 160);
+}
+.blog p{
+    font-size: 18px;
+    margin-top: 15px;
+    color: rgb(74, 102, 128);
+}
+.blog .title{
+    /* margin-left: 25px; */
+    font-weight: 600;
+    color: rgb(59, 98, 134)
+}
+.blog .Snd-ans{
+    margin-top: 0;
+}
