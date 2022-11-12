@@ -190,6 +190,9 @@ button {
     width: 100%;
   }
   .card {
-    flex-direction: column;
+    align-items: center;
+  }
+  #histories{
+    grid-template-columns: repeat(1, minmax(0, 1fr));
   }
 }
